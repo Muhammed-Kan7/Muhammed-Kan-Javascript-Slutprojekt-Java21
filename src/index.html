@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Pictures</title>
+</head>
+<body>
+
+    <div class="search-container">
+        <input type="text" name="search-text" placeholder="Search text">
+        <select name="image-size" id="image-size">
+            <option value="s">Small</option>
+            <option value="m" selected>Medium</option>
+            <option value="l">Large</option>
+        </select>
+        <input type="number" name="image-count" id="image-count" value="1" min="1" max="20">
+        <button id="get-images">Get images</button>
+    </div>
+    
+    <div id="image-container"></div>
+
+</body>
+</html>
